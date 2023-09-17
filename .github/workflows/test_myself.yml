@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: overpas/test-action@v0.1˚
+        uses: overpas/test-action@v0.1
         with:
           who-to-greet: 'overpas'
       # Use the output from the `hello` step
