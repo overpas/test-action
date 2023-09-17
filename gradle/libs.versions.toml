@@ -1,0 +1,12 @@
+[versions]
+kotlin = "1.9.0"
+kotlin-wrappers = "0.0.1-pre.624"
+kotlin-github-action = "1.6.0"
+
+[libraries]
+kotlin-wrappers-actions-toolkit = { group = "org.jetbrains.kotlin-wrappers", name = "kotlin-actions-toolkit", version.ref = "kotlin-wrappers"}
+kotlin-github-action = { group = "com.github.rnett.ktjs-github-action", name = "kotlin-js-action", version.ref = "kotlin-github-action" }
+
+[plugins]
+kotlin-multiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
+kotlin-github-action = { id = "com.github.rnett.ktjs-github-action", version.ref = "kotlin-github-action"  }
